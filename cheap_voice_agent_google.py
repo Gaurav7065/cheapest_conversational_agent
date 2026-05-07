@@ -18,7 +18,7 @@ from collections import deque
 # 🔧 CONFIG
 # ==============================
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "You_api_key"
 if not GROQ_API_KEY:
     raise RuntimeError(
         "GROQ_API_KEY environment variable not set. "
