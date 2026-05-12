@@ -63,7 +63,7 @@ Keep conversations engaging and ask follow-up questions when appropriate."""
 # 🔧 GLOBALS
 # ==============================
 
-groq_client = OpenAI(api_key=GROQ_API_KEY, base_url="https://api.groq.com/openai/v1")
+groq_client = (api_key=GROQ_API_KEY, base_url="https://api.groq.com/openai/v1")
 
 raw_audio_queue = queue.Queue()
 speech_queue = asyncio.Queue()
